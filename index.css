@@ -21,10 +21,15 @@ p{
 
 /*header*/
 
-header .logo{
+.logo{
     width: 120px;
     height: 100%;
     display: flex;
     align-items: center;
     margin: 0 auto;
+}
+
+#header-ber{
+    display: flex;
+    align-content: space-between ;
 }
