@@ -20,9 +20,12 @@ p{
 }
 
 /*header*/
+header{
+    margin: 50px 140px;
+}
 
-.logo{
-    width: 120px;
+header img{
+    width: 80px;
     height: 100%;
     display: flex;
     align-items: center;
