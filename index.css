@@ -115,7 +115,6 @@ nav{
 tr{
     font-weight: normal;
     padding: 10px;
-    border-right: solid 1px #c3c3c3;
     text-align: center;
 }
 table{
@@ -127,34 +126,41 @@ border-collapse: collapse;
 .table1{
 border: none;
 }
-
+/*solid 1px #c3c3c3*/
 .table1 td {
 padding: 10px 16px;
 border-top: none;
 border-left: none;
+
 }
-td.none{
-    border-left: none;
-}
+
 
 .size .color{
     width: 30%;
 
 }
+
 .none{
 width: 80%;
+border-right: none;
 }
 td .Size2{
     width: 10%;
+
+}
+.Size2{
+
     background-color: #ecebeb;
 }
 .table2 td{
  padding: 10px 16px;
  width: 15%;
 }
+.table-title{
+    background-color: #ecebeb;
+}
 
 
-.table td
 /*footer*/
 
 footer{
@@ -162,3 +168,25 @@ footer{
     text-align: center;
     font-size: small;
 }
+
+/* 共通のスタイル */
+
+/* メディアクエリ（スマホサイズ） */
+@media (max-width: 767px) {
+    /* スマホサイズに適用されるスタイル */
+  
+    /* フッターのスタイルを縦並びに変更 */
+    body{
+        width: fit-content;
+    }
+
+   #div-flex{
+        display: flex;
+       flex-direction: column;
+       width: fit-content;
+       margin: 0 auto;
+    }
+  
+    /* 他の要素に必要なスタイルを追加してください */
+  }
+  
